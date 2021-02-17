@@ -4,6 +4,6 @@
   <Component Name="SourceControl" />
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>_Debug=KyrTemplate,</LastBuildGameFileName>
+    <LastBuildGameFileName>_Debug=KyrTemplate,DataFile=KyrTemplate,Windows=KyrTemplate,Linux=KyrTemplate,</LastBuildGameFileName>
   </WorkspaceState>
 </AGSEditorUserData>
