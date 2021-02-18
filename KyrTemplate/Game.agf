@@ -170,7 +170,7 @@
       <CustomPropertySchemaItem>
         <Name>CharID</Name>
         <Description xml:space="preserve">Character ID number | 0 = blank</Description>
-        <DefaultValue>1</DefaultValue>
+        <DefaultValue>0</DefaultValue>
         <AppliesToCharacters>False</AppliesToCharacters>
         <AppliesToHotspots>False</AppliesToHotspots>
         <AppliesToInvItems>True</AppliesToInvItems>
@@ -1634,7 +1634,12 @@
             <Image>29</Image>
             <Description>Garnet</Description>
             <Name>iGarnet</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>CharID</Name>
+                <Value>1</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -1675,7 +1680,12 @@
             <Image>56</Image>
             <Description xml:space="preserve">Blue Cup</Description>
             <Name>iCup</Name>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>CharID</Name>
+                <Value>3</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -1866,7 +1876,7 @@
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>1</StartingRoom>
+                <StartingRoom>0</StartingRoom>
                 <StartX>160</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1915,7 +1925,7 @@
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>1</StartingRoom>
+                <StartingRoom>0</StartingRoom>
                 <StartX>100</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1938,6 +1948,51 @@
                   <CustomProperty>
                     <Name>InvID</Name>
                     <Value>12</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                  <Event Index="5" />
+                  <Event Index="6" />
+                  <Event Index="7" />
+                </Interactions>
+              </Character>
+              <Character>
+                <ID>3</ID>
+                <ScriptName>cBlueCup</ScriptName>
+                <RealName />
+                <NormalView>6</NormalView>
+                <SpeechView>0</SpeechView>
+                <IdleView>0</IdleView>
+                <ThinkingView>0</ThinkingView>
+                <BlinkingView>0</BlinkingView>
+                <StartingRoom>-1</StartingRoom>
+                <StartX>160</StartX>
+                <StartY>120</StartY>
+                <UniformMovementSpeed>True</UniformMovementSpeed>
+                <MovementSpeed>3</MovementSpeed>
+                <MovementSpeedX>0</MovementSpeedX>
+                <MovementSpeedY>0</MovementSpeedY>
+                <AnimationDelay>4</AnimationDelay>
+                <SpeechAnimationDelay>5</SpeechAnimationDelay>
+                <SpeechColor>12</SpeechColor>
+                <Solid>True</Solid>
+                <Clickable>True</Clickable>
+                <UseRoomAreaScaling>True</UseRoomAreaScaling>
+                <UseRoomAreaLighting>True</UseRoomAreaLighting>
+                <TurnBeforeWalking>True</TurnBeforeWalking>
+                <DiagonalLoops>True</DiagonalLoops>
+                <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+                <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <Properties>
+                  <CustomProperty>
+                    <Name>InvID</Name>
+                    <Value>13</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
@@ -3439,6 +3494,56 @@
                       <ViewFrame>
                         <ID>0</ID>
                         <Image>55</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>6</ID>
+                <Name>vBlueCup</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>56</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
