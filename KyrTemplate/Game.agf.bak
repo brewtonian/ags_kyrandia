@@ -178,6 +178,17 @@
         <AppliesToRooms>False</AppliesToRooms>
         <Type>Number</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <Name>InvFrame</Name>
+        <Description xml:space="preserve">Item's position in vInvItems</Description>
+        <DefaultValue>0</DefaultValue>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -1662,6 +1673,10 @@
                 <Name>CharID</Name>
                 <Value>2</Value>
               </CustomProperty>
+              <CustomProperty>
+                <Name>InvFrame</Name>
+                <Value>1</Value>
+              </CustomProperty>
             </Properties>
             <Interactions>
               <Event Index="0" />
@@ -1684,6 +1699,10 @@
               <CustomProperty>
                 <Name>CharID</Name>
                 <Value>3</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>InvFrame</Name>
+                <Value>2</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -1871,7 +1890,7 @@
                 <ID>1</ID>
                 <ScriptName>cInvGarnet</ScriptName>
                 <RealName />
-                <NormalView>4</NormalView>
+                <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -1904,6 +1923,10 @@
                     <Name>InvID</Name>
                     <Value>11</Value>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name>InvFrame</Name>
+                    <Value>1</Value>
+                  </CustomProperty>
                 </Properties>
                 <Interactions>
                   <Event Index="0" />
@@ -1919,13 +1942,13 @@
               <Character>
                 <ID>2</ID>
                 <ScriptName>cInvApple</ScriptName>
-                <RealName xml:space="preserve">New character</RealName>
-                <NormalView>5</NormalView>
+                <RealName />
+                <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
                 <BlinkingView>0</BlinkingView>
-                <StartingRoom>0</StartingRoom>
+                <StartingRoom>-1</StartingRoom>
                 <StartX>100</StartX>
                 <StartY>120</StartY>
                 <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1943,11 +1966,15 @@
                 <DiagonalLoops>True</DiagonalLoops>
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <MovementLinkedToAnimation>False</MovementLinkedToAnimation>
                 <Properties>
                   <CustomProperty>
                     <Name>InvID</Name>
                     <Value>12</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>InvFrame</Name>
+                    <Value>1</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
@@ -1965,7 +1992,7 @@
                 <ID>3</ID>
                 <ScriptName>cBlueCup</ScriptName>
                 <RealName />
-                <NormalView>6</NormalView>
+                <NormalView>1</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -1988,11 +2015,15 @@
                 <DiagonalLoops>True</DiagonalLoops>
                 <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
                 <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-                <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+                <MovementLinkedToAnimation>False</MovementLinkedToAnimation>
                 <Properties>
                   <CustomProperty>
                     <Name>InvID</Name>
                     <Value>13</Value>
+                  </CustomProperty>
+                  <CustomProperty>
+                    <Name>InvFrame</Name>
+                    <Value>2</Value>
                   </CustomProperty>
                 </Properties>
                 <Interactions>
@@ -3429,200 +3460,11 @@
     </Sprites>
     <Views>
       <ViewFolder Name="Default">
-        <SubFolders>
-          <ViewFolder Name="Inventory Items">
-            <SubFolders />
-            <Views>
-              <View>
-                <ID>4</ID>
-                <Name>vGarnet</Name>
-                <Loops>
-                  <Loop>
-                    <ID>0</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>29</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>1</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>2</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>3</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames />
-                  </Loop>
-                </Loops>
-              </View>
-              <View>
-                <ID>5</ID>
-                <Name>vApple</Name>
-                <Loops>
-                  <Loop>
-                    <ID>0</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>55</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>1</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>2</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>3</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames />
-                  </Loop>
-                </Loops>
-              </View>
-              <View>
-                <ID>6</ID>
-                <Name>vBlueCup</Name>
-                <Loops>
-                  <Loop>
-                    <ID>0</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>56</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>1</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>2</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>0</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                  <Loop>
-                    <ID>3</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames />
-                  </Loop>
-                </Loops>
-              </View>
-              <View>
-                <ID>7</ID>
-                <Name>vInvItems</Name>
-                <Loops>
-                  <Loop>
-                    <ID>0</ID>
-                    <RunNextLoop>False</RunNextLoop>
-                    <Frames>
-                      <ViewFrame>
-                        <ID>0</ID>
-                        <Image>29</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>1</ID>
-                        <Image>55</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>2</ID>
-                        <Image>56</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                    </Frames>
-                  </Loop>
-                </Loops>
-              </View>
-            </Views>
-          </ViewFolder>
-        </SubFolders>
+        <SubFolders />
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>vInvItems</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -3630,7 +3472,21 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>55</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>56</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3666,15 +3522,7 @@
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>0</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
+                <Frames />
               </Loop>
             </Loops>
           </View>
@@ -4232,7 +4080,11 @@
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>4</ViewID>
+      <ViewID>5</ViewID>
+      <ViewID>6</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
