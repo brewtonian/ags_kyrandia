@@ -1452,7 +1452,7 @@
                 <Name>iBlank1</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1470,7 +1470,7 @@
                 <Name>iBlank2</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1488,7 +1488,7 @@
                 <Name>iBlank3</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1506,7 +1506,7 @@
                 <Name>iBlank4</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1524,7 +1524,7 @@
                 <Name>iBlank5</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1542,7 +1542,7 @@
                 <Name>iBlank6</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1560,7 +1560,7 @@
                 <Name>iBlank7</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1578,7 +1578,7 @@
                 <Name>iBlank8</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1596,7 +1596,7 @@
                 <Name>iBlank9</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -1614,7 +1614,7 @@
                 <Name>iBlank10</Name>
                 <Properties />
                 <Interactions>
-                  <Event Index="0" />
+                  <Event Index="0">iBlank_Look</Event>
                   <Event Index="1" />
                   <Event Index="2" />
                   <Event Index="3" />
@@ -3580,6 +3580,39 @@
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
                     <Frames />
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>7</ID>
+                <Name>vInvItems</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>29</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>55</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>56</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
                   </Loop>
                 </Loops>
               </View>
