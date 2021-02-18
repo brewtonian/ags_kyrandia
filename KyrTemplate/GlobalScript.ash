@@ -3,4 +3,4 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
-import function character_item_pick_up();
+import bool character_item_interaction();

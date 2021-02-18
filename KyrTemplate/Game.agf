@@ -693,7 +693,7 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>2</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Pool of Sorrows</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>0</Number>
@@ -2111,10 +2111,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>4</ID>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>8</HotspotX>
+        <HotspotY>8</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>30</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
