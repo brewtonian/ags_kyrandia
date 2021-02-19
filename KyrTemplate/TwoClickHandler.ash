@@ -53,11 +53,3 @@ struct TwoClickHandler {
   import static attribute float PopupProportional;
   import static attribute int PopupDistance;
 };
-
-enum ExitTypes {
-  eExitUp, 
-  eExitRight, 
-  eExitDown, 
-  eExitLeft, 
-  eExitNo
-};
