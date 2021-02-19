@@ -789,7 +789,7 @@
                 <Top>19</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name>InventoryWindow1</Name>
+                <Name>gPanelWindow</Name>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
