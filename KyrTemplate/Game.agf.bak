@@ -4147,9 +4147,9 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
+                <ScriptName>aForest</ScriptName>
                 <ID>1</ID>
                 <SourceFileName xml:space="preserve">E:\Current Projects\Kyrandia\Game Files\Music\forest.mid</SourceFileName>
-                <ScriptName>aForest</ScriptName>
                 <Index>2</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
