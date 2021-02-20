@@ -7,7 +7,7 @@
 import function get_exit_type();
 import void drop_held_item();
 import void pick_up_item(Character* dummyChar);
-import bool character_item_interaction();
+import bool dummy_item_interaction();
 import void take_item_from_slot(InventoryItem* item);
 import void drop_item_in_slot(InventoryItem* item);
 import void switch_item_in_slot(InventoryItem* item);
