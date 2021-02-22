@@ -5123,21 +5123,7 @@
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips>
-              <AudioClip>
-                <ScriptName>aForest</ScriptName>
-                <ID>1</ID>
-                <SourceFileName xml:space="preserve">E:\Music Bundle\retroadventuremusicpack\Retro Adventure Theme #1 (looped).mp3</SourceFileName>
-                <Index>6</Index>
-                <Type>2</Type>
-                <BundlingType>InSeparateVOX</BundlingType>
-                <FileType>MP3</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2021-02-06 08:50:54Z</FileLastModifiedDate>
-              </AudioClip>
-            </AudioClips>
+            <AudioClips />
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
