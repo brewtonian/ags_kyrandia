@@ -78,7 +78,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName xml:space="preserve">Kyrandia Template</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>5</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <BuildTargets xml:space="preserve">Windows, Linux</BuildTargets>
       <RenderAtScreenResolution>UserDefined</RenderAtScreenResolution>
     </Settings>
@@ -727,18 +727,18 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>TopCenter</TextAlignment>
+                <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text />
+                <Text>Options</Text>
                 <Height>33</Height>
                 <Locked>False</Locked>
                 <Width>55</Width>
                 <Left>10</Left>
-                <Top>22</Top>
+                <Top>16</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>ButtonOptions</Name>
@@ -818,8 +818,8 @@
                 <Height>17</Height>
                 <Locked>False</Locked>
                 <Width>27</Width>
-                <Left>253</Left>
-                <Top>18</Top>
+                <Left>251</Left>
+                <Top>16</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>ButtonAmuletTop</Name>
@@ -842,8 +842,8 @@
                 <Height>17</Height>
                 <Locked>False</Locked>
                 <Width>27</Width>
-                <Left>253</Left>
-                <Top>40</Top>
+                <Left>251</Left>
+                <Top>38</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>ButtonAmuletBottom</Name>
@@ -866,8 +866,8 @@
                 <Height>17</Height>
                 <Locked>False</Locked>
                 <Width>27</Width>
-                <Left>275</Left>
-                <Top>29</Top>
+                <Left>273</Left>
+                <Top>27</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>ButtonAmuletRight</Name>
@@ -890,8 +890,8 @@
                 <Height>17</Height>
                 <Locked>False</Locked>
                 <Width>27</Width>
-                <Left>231</Left>
-                <Top>29</Top>
+                <Left>229</Left>
+                <Top>27</Top>
                 <ZOrder>7</ZOrder>
                 <ID>7</ID>
                 <Name>ButtonAmuletLeft</Name>
@@ -3429,10 +3429,10 @@
         <Characters>
           <Character>
             <ID>0</ID>
-            <ScriptName>cBrandon</ScriptName>
-            <RealName>Brandon</RealName>
+            <ScriptName>cRoger</ScriptName>
+            <RealName>Roger</RealName>
             <NormalView>2</NormalView>
-            <SpeechView>3</SpeechView>
+            <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
@@ -3961,14 +3961,14 @@
           <SpriteFolder Name="GUI">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="1" Width="320" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="1" Width="320" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\guipanel.png</FileName>
+                  <FileName />
                   <OffsetX>0</OffsetX>
-                  <OffsetY>141</OffsetY>
+                  <OffsetY>0</OffsetY>
                   <ImportHeight>59</ImportHeight>
                   <ImportWidth>320</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
@@ -3978,136 +3978,136 @@
               </Sprite>
               <Sprite Slot="2" Width="320" Height="141" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\guiframe.png</FileName>
+                  <FileName>E:\Current Projects\Kyrandia\Game Files\GUI\Sprite-0008.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>141</ImportHeight>
                   <ImportWidth>320</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>PaletteIndex0</ImportMethod>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="24" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="24" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\GUI\cursors.png</FileName>
+                  <FileName />
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>11</ImportHeight>
                   <ImportWidth>9</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopRight</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="25" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="25" Width="6" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\GUI\cursors.png</FileName>
-                  <OffsetX>9</OffsetX>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>11</ImportHeight>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>6</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="26" Width="9" Height="7" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>1</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>7</ImportHeight>
                   <ImportWidth>9</ImportWidth>
                   <ImportAsTile>True</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>BottomRight</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="26" Width="11" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="27" Width="9" Height="7" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\GUI\cursors.png</FileName>
-                  <OffsetX>19</OffsetX>
-                  <OffsetY>1</OffsetY>
-                  <ImportHeight>9</ImportHeight>
-                  <ImportWidth>11</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>7</ImportHeight>
+                  <ImportWidth>9</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="27" Width="11" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="28" Width="10" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\GUI\cursors.png</FileName>
-                  <OffsetX>31</OffsetX>
-                  <OffsetY>1</OffsetY>
-                  <ImportHeight>9</ImportHeight>
-                  <ImportWidth>11</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="28" Width="11" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\REDO\GUI\cursors.png</FileName>
-                  <OffsetX>43</OffsetX>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>10</ImportHeight>
-                  <ImportWidth>11</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
+                  <ImportWidth>10</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="31" Width="80" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="31" Width="80" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\amulet.png</FileName>
-                  <OffsetX>2</OffsetX>
-                  <OffsetY>2</OffsetY>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
                   <ImportHeight>48</ImportHeight>
                   <ImportWidth>80</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="32" Width="27" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\Objects\stone.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>17</ImportHeight>
-                  <ImportWidth>27</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="23" Width="9" Height="11" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="32" Width="31" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\GUI\cursor-right.png</FileName>
+                  <FileName />
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>11</ImportHeight>
-                  <ImportWidth>9</ImportWidth>
+                  <ImportHeight>21</ImportHeight>
+                  <ImportWidth>31</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="23" Width="6" Height="9" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>9</ImportHeight>
+                  <ImportWidth>6</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopRight</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
@@ -4173,512 +4173,12 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
-          <SpriteFolder Name="cBrandon">
-            <SubFolders />
-            <Sprites>
-              <Sprite Slot="3" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>24</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="4" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>48</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="5" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>72</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="6" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>96</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="7" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>120</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="8" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>144</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="9" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>168</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="10" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>192</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="11" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="12" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>24</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="13" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>48</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="14" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>72</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="15" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>96</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="16" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>120</OffsetX>
-                  <OffsetY>80</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="17" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="18" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>24</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="19" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>48</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="20" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>72</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="21" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>96</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="22" Width="24" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\wb0R9mu.png</FileName>
-                  <OffsetX>120</OffsetX>
-                  <OffsetY>129</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>24</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="42" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="43" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>20</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="44" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>40</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="45" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>60</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="46" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>80</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="47" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>100</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="48" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>120</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="49" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>140</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="50" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>160</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="51" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>180</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="52" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>200</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="53" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>220</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-              <Sprite Slot="54" Width="20" Height="48" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Characters\bran-talk.png</FileName>
-                  <OffsetX>240</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>48</ImportHeight>
-                  <ImportWidth>20</ImportWidth>
-                  <ImportAsTile>True</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>False</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
-            </Sprites>
-          </SpriteFolder>
           <SpriteFolder Name="Items">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="29" Width="16" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="29" Width="16" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\Game Files\Objects\garnet.png</FileName>
+                  <FileName />
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>17</ImportHeight>
@@ -4687,7 +4187,7 @@
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
@@ -4706,18 +4206,18 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="55" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+              <Sprite Slot="55" Width="16" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
-                  <FileName>E:\Current Projects\Kyrandia\ags_kyrandia\Game Files\Objects\apple.png</FileName>
+                  <FileName />
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>16</ImportHeight>
+                  <ImportHeight>17</ImportHeight>
                   <ImportWidth>16</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
@@ -4736,12 +4236,12 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="57" Width="16" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+              <Sprite Slot="57" Width="16" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="False">
                 <Source>
                   <FileName />
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
-                  <ImportHeight>16</ImportHeight>
+                  <ImportHeight>17</ImportHeight>
                   <ImportWidth>16</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
@@ -4749,6 +4249,431 @@
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopLeft</ImportMethod>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="cRoger">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="37" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="38" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="39" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="40" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="41" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="58" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="59" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="60" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="61" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="62" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="63" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="64" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="65" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="66" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="71" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="77" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="78" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="80" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
                 </Source>
               </Sprite>
             </Sprites>
@@ -4857,7 +4782,7 @@
           </View>
           <View>
             <ID>2</ID>
-            <Name>vBranWalk</Name>
+            <Name>vRogWalk</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4865,49 +4790,49 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>42</Image>
+                    <Image>37</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>11</Image>
+                    <Image>38</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>12</Image>
+                    <Image>39</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>13</Image>
+                    <Image>40</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>14</Image>
+                    <Image>41</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>15</Image>
+                    <Image>58</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>16</Image>
+                    <Image>59</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -4920,63 +4845,49 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>42</Image>
+                    <Image>60</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>3</Image>
+                    <Image>61</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>4</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>5</Image>
+                    <Image>63</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>6</Image>
+                    <Image>64</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>7</Image>
+                    <Image>65</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>8</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>9</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>10</Image>
+                    <Image>66</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -4989,64 +4900,50 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>42</Image>
-                    <Flipped>True</Flipped>
+                    <Image>67</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>3</Image>
-                    <Flipped>True</Flipped>
+                    <Image>68</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>4</Image>
-                    <Flipped>True</Flipped>
+                    <Image>69</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>5</Image>
-                    <Flipped>True</Flipped>
+                    <Image>70</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>6</Image>
-                    <Flipped>True</Flipped>
+                    <Image>71</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>7</Image>
-                    <Flipped>True</Flipped>
+                    <Image>72</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>8</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>9</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>10</Image>
-                    <Flipped>True</Flipped>
+                    <Image>73</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -5058,347 +4955,50 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>42</Image>
+                    <Image>74</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>17</Image>
+                    <Image>75</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>18</Image>
+                    <Image>76</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>19</Image>
+                    <Image>77</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>20</Image>
+                    <Image>78</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>21</Image>
+                    <Image>79</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>22</Image>
+                    <Image>80</Image>
                     <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-            </Loops>
-          </View>
-          <View>
-            <ID>3</ID>
-            <Name>vBranTalk</Name>
-            <Loops>
-              <Loop>
-                <ID>0</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>42</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>1</ID>
-                    <Image>43</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>2</ID>
-                    <Image>44</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>3</ID>
-                    <Image>45</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>4</ID>
-                    <Image>46</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>5</ID>
-                    <Image>47</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>6</ID>
-                    <Image>48</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>49</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>50</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>51</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>10</ID>
-                    <Image>52</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>11</ID>
-                    <Image>53</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>12</ID>
-                    <Image>54</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>1</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>42</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>1</ID>
-                    <Image>43</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>2</ID>
-                    <Image>44</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>3</ID>
-                    <Image>45</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>4</ID>
-                    <Image>46</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>5</ID>
-                    <Image>47</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>6</ID>
-                    <Image>48</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>49</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>50</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>51</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>10</ID>
-                    <Image>52</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>11</ID>
-                    <Image>53</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>12</ID>
-                    <Image>54</Image>
-                    <Flipped>False</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                </Frames>
-              </Loop>
-              <Loop>
-                <ID>2</ID>
-                <RunNextLoop>False</RunNextLoop>
-                <Frames>
-                  <ViewFrame>
-                    <ID>0</ID>
-                    <Image>42</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>1</ID>
-                    <Image>43</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>2</ID>
-                    <Image>44</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>3</ID>
-                    <Image>45</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>4</ID>
-                    <Image>46</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>5</ID>
-                    <Image>47</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>6</ID>
-                    <Image>48</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>7</ID>
-                    <Image>49</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>8</ID>
-                    <Image>50</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>9</ID>
-                    <Image>51</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>10</ID>
-                    <Image>52</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>11</ID>
-                    <Image>53</Image>
-                    <Flipped>True</Flipped>
-                    <Delay>0</Delay>
-                    <Sound>0</Sound>
-                  </ViewFrame>
-                  <ViewFrame>
-                    <ID>12</ID>
-                    <Image>54</Image>
-                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -5413,6 +5013,7 @@
       <ViewID>4</ViewID>
       <ViewID>5</ViewID>
       <ViewID>6</ViewID>
+      <ViewID>3</ViewID>
     </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
@@ -5524,17 +5125,17 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aForest</ScriptName>
                 <ID>1</ID>
-                <SourceFileName xml:space="preserve">E:\Current Projects\aForest.ogg</SourceFileName>
-                <Index>5</Index>
+                <SourceFileName xml:space="preserve">E:\Music Bundle\retroadventuremusicpack\Retro Adventure Theme #1 (looped).mp3</SourceFileName>
+                <ScriptName>aForest</ScriptName>
+                <Index>6</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
-                <FileType>OGG</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2021-02-21 19:26:53Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2021-02-06 08:50:54Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
