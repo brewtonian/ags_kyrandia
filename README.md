@@ -1,18 +1,22 @@
 # ags_kyrandia
 
 This AGS interface template combines my favourite interface features from the BASS template and The Legend of Kyrandia.
+
 Initially based on the BASS template by Ghost and the AGS team. Features a heavily modified TwoClickHandler script.
+
 Intended to serve as a template with the full functionality of the interface used in The Legend of Kyrandia by Westwood Studios.
 
-INTELLECTUAL PROPERTY NOTE
+### INTELLECTUAL PROPERTY NOTE
 
 The compiled version uses assets from the Legend of Kyrandia for demonstration purposes ONLY.
+
 These assets have been removed from the template.
+
 Sorry for the uggo asset replacements.
 
 The scripts in this project are released under the MIT license.
 
-FEATURES
+### FEATURES
 - Single click on inventory items to pick up or pop out of slots.
 - Single click on screen to drop items in a room.
 - Retains useful right-click and left-click handling from BASS template.
