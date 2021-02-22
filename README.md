@@ -5,6 +5,7 @@ Initially based on the BASS template by Ghost and the AGS team. Features a heavi
 Intended to serve as a template with the full functionality of the interface used in The Legend of Kyrandia by Westwood Studios.
 
 INTELLECTUAL PROPERTY NOTE
+
 The compiled version uses assets from the Legend of Kyrandia for demonstration purposes ONLY.
 These assets have been removed from the template.
 Sorry for the uggo asset replacements.
