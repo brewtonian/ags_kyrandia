@@ -5136,9 +5136,9 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aTick</ScriptName>
                 <ID>0</ID>
                 <SourceFileName xml:space="preserve">E:\Current Projects\Kyrandia\kyr\AudioCache\au000006.wav</SourceFileName>
+                <ScriptName>aTick</ScriptName>
                 <Index>1</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
